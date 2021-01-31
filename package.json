@@ -1,0 +1,24 @@
+{
+  "name": "Classroom",
+  "version": "1.0.0",
+  "engines": {
+    "node": "^14.15.3",
+    "npm": "^6.14.9"
+  },
+  "description": "Classroom for one-to-one teaching",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "author": "Mayur Samrutwar",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "simple-peer": "^9.9.3",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  }
+}
