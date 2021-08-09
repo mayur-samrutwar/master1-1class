@@ -14,7 +14,7 @@
 - www.whiteboard.team 
     - for whiteboard api
 - Doubt Everything - Youtube Channel
-    - for detailed video on WebRTC and code too
+    - for detailed video on WebRTC
 
 ## Developed using
 - node.js
